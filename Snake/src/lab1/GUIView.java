@@ -50,11 +50,8 @@ public class GUIView extends JPanel {
 		this.gameFactory = factory;
 
 		// Set the background on the GameView
-<<<<<<< HEAD
 		this.gameView.setBackground(new Color(51,204,255));
-=======
-		this.gameView.setBackground(Color.lightGray);
->>>>>>> 556da5c48fe886418b56a91dee2d4521bb48cf4d
+
 
 		// Set the layout on myself
 		setLayout(new BorderLayout());
